@@ -1,0 +1,31 @@
+#navbar nav ul {
+    text-align: right;
+}
+
+#navbar nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 5%;
+    
+}
+
+#navbar nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+#navbar{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffdcb8;
+    height: 45px;
+}
+
+
+body{
+    background-color: #374045;
+}
+
+h1{
+    color: white;
+
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: #374045;
+}
+
+.form{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#form{
+    text-align: center;
+}
+
+#navbar nav ul {
+    text-align: right;
+}
+
+#navbar nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 5%;
+    
+}
+
+#navbar nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+#navbar{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffdcb8;
+    height: 45px;
+}
+
+#form{
+    margin-top:45px;
+}
+
+input{
+    height: 35px;
+    width:230px;
+    border-radius: 9px;
+
+}
+
+#msg{
+    color:white;
+    position:relative;
+    bottom:35px;
+    font-size:20px;
+    left:55px;
+    font-weight: bold;
+    
+   
+
+}
+
+textarea{
+    border-radius: 9px;
+    position:relative;
+    left:65px;
+}

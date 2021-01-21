@@ -1,0 +1,66 @@
+#btn{
+    position:absolute;
+    left: 45%;
+    border : solid 2px #e27802;
+    background-color:#d89216;
+    color:black;
+    height: 56px;
+    width:86px;
+    border-radius :12px;
+    font-size: 20px;
+
+}
+#result{
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    position: relative;
+    bottom: 1px;
+    top: 75px;
+
+}
+
+body{
+    background-color: #374045;
+}
+
+.intro{
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+#gif{
+    height: 200px;
+}
+
+#navbar nav ul {
+    text-align: right;
+}
+
+#navbar nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 5%;
+    
+}
+
+#navbar nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+#navbar{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffdcb8;
+    height: 45px;
+}
+
+#footer{
+    text-align: center;
+    position: absolute;
+    bottom:5px;
+    top:20px;
+}
