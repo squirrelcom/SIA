@@ -47,13 +47,9 @@ function speak(text) {
         speech.text = "Opening Stack Overflow";
         window.open('https://www.stackoverflow.com');
     }
-    else if (text.includes('open google')||text.includes('go to google')||text.includes('open Google')||text.includes('go to Google')){
-        speech.text = "Opening Google.";
-        window.open('https://www.google.com');
-    }
-    else if (text.includes('open whatsapp')||text.includes('go to whatsapp')||text.includes('open WhatsApp')||text.includes('go to whatsApp')){
-        speech.text = "Opening Whatsapp.";
-        window.open('https://web.whatsapp.com/');
+    else if (text.includes('open search')||text.includes('go to google')||text.includes('open Google')||text.includes('go to Google')){
+        speech.text = "Opening seARch.";
+        window.open('https://squirrelcom.github.io/seARch');
     }
     else if(text.includes('your birthday')||text.includes('your Birthday')){
         speech.text = "The 22nd of january";    
