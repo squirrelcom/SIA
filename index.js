@@ -1,34 +1,5 @@
 var SpeechRecognition = window.SpeechRecognition||window.webkitSpeechRecognition;
 var recognition = new SpeechRecognition();
-var synth = window.speechSynthesis;
-
-// get voices
-var voices = synth.getVoices();
-
-// when voices have finished loading
-synth.onvoiceschanged = function() {
-
-  var sayThis = new SpeechSynthesisUtterance('Hi how are you?');
-  sayThis.onend = function(event) {
-    console.log('SpeechSynthesisUtterance.onend');
-  }
-
-  sayThis.onerror = function(event) {
-    console.error('SpeechSynthesisUtterance.onerror');
-  }
-
-  var selectedVoice = 'Google UK English Male';
-  for (var i = 0; i < voices.length; i++) {
-    if (voices[i].name === selectedVoice) {
-      sayThis.voice = voices[i];
-      break;
-    }
-  }
-  sayThis.pitch = 1;
-  sayThis.rate = 1;
-
-  synth.speak(sayThis);
-}
 
             
 recognition.onstart = function() {
