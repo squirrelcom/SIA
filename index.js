@@ -29,10 +29,10 @@ function speak(text) {
         speech.text = "The time is " + new Date().getHours() + " " + new Date().getMinutes() + " right now";  
     }
     else if(text.includes('who are you') || text.includes('whom you are') || text.includes('who you are')){
-        speech.text = "I'm a personalised Voice Assistant, SIA.";
+        speech.text = "I'm your virtual butler, John.";
     }
     else if (text.includes("what's your name") || text.includes('your name')){
-        speech.text = "My name is SIA";
+        speech.text = "My name is John";
     }
     else if(text.includes("hello") || text.includes('hi')) {
         speech.text = "Hello sir, How are you doing.";
@@ -56,21 +56,15 @@ function speak(text) {
         speech.text = "Opening Whatsapp.";
         window.open('https://web.whatsapp.com/');
     }
-    else if(text.includes('my birthday')||text.includes('my Birthday')){
-        speech.text = "Do you think you're that famous. How the heck I know you birthday.";    
+    else if(text.includes('your birthday')||text.includes('your Birthday')){
+        speech.text = "The 22nd of january";    
     }
     
     else if (text.includes('who made you')||text.includes('who created you')||text.includes('who invented you')){
-        speech.text = "I was made by my master Uday Kiran";
-    }
-    else if (text.includes('God')){
-        speech.text = "I think, Uday Kiran, he's the one who made me, he might be the God.";
-    }
-    else if (text.includes('when you were made')||text.includes('when you were initialized')){
-        speech.text = "Oh!, that was a beautiful day in my life.I was initialized on 16th of January 2021, on Saturday 6 46 P.M";
+        speech.text = "I'am an improved version of the SIA assistant by Squirrel Enterprises ";
     }
     else if(text.includes ('how are you')){
-        speech.text = "I'm always fine, untill you care me";
+        speech.text = "I'm always Great";
     }
 
 
