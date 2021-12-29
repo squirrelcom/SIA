@@ -41,13 +41,8 @@ function speak(text) {
         speech.text = "Bye Sir, have a good Day.";
         speech.onend = function(){
             recognition.stop();
-        }
     }
-    else if (text.includes('stackOverflow')|| text.includes('stack overflow')){
-        speech.text = "Opening Stack Overflow";
-        window.open('https://www.stackoverflow.com');
-    }
-    else if (text.includes('open search')||text.includes('go to google')||text.includes('open Google')||text.includes('go to Google')){
+    else if (text.includes('open search')){
         speech.text = "Opening seARch.";
         window.open('https://squirrelcom.github.io/seARch');
     }
@@ -62,7 +57,10 @@ function speak(text) {
         speech.text = "I'm always Great";
     }
 
-
+    else if (!text) {
+            window.open("http://google.com/search?q=${rawText.replace("search", "")}`, "_blank");
+	speech.text "I found some information for ${rawText} ,I will now open it on your device";
+    }
 
 
 
