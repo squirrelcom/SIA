@@ -57,11 +57,6 @@ function speak(text) {
         speech.text = "I'm always Great";
     }
 
-    else if (!text) {
-            window.open("http://google.com/search?q=${rawText.replace("search", "")}`, "_blank");
-	speech.text "I found some information for ${rawText} ,I will now open it on your device";
-    }
-
 
 
 
